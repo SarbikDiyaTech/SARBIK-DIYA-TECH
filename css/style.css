@@ -3865,6 +3865,19 @@ h6 {
       .single-footer-widget .social_widget a:hover {
         background: #3fcaff; }
 
+        
+        ::-webkit-scrollbar{
+          background: #ddd;
+          width: 14px;
+      }
+      ::-webkit-scrollbar-track{
+          box-shadow: inset 0 0 10px #00000070;
+          border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb{
+          background: linear-gradient(125deg,#3498db,#34495e);
+          border-radius: 10px;
+      }
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
